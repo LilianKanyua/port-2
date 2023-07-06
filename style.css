@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a base font size and family */
+  body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header and navigation */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the sections */
+  section {
+    padding: 50px;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  /* Style the about section */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .profile-img img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .bio {
+    flex: 2;
+    padding-left: 50px;
+  }
+  
+  /* Style the projects section */
+  .project {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .project img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .project-info {
+    flex: 1;
+  }
+  form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+  #grad {
+    background-color: linear-gradient(rgb(226, 33, 33), rgb(230, 69, 69));
+  }
